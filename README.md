@@ -45,15 +45,26 @@ You may clone using git or download the repository and extract the files manuall
 ============================================================================================================
 **First (easier):**
 - Clone this repository or download as zip.
+
 - Install the requirements on a newly created environment to prevent issues with other existing ones.
-- Directly open the `006-Evaluator.ipynb` restart and run all the kernel to proceed with the evaluation. 
-- Open the `007-Tester_with_gradcam.ipynb` restart and run all the kernel to test it.
+
+- Directly open the `006-Evaluator.ipynb` go to the `Kernel` tab above then proceed with `Restart & Run All` to evaluate. 
+
+- In cell #5 of the `006-Evaluator.ipynb` the `architecture` and `condition` variables have values that can be changed to evaluate the other models. As `architecture` has a list of `['MFuRe', 'MFNR']` and the condition has `['alpha', 'standard', 'no']`. Values can be interchanged as needed depending on the model to be evaluated. 
+
+- For testing, open the `007-Tester_with_gradcam.ipynb` go to the `Kernel` tab above then proceed with `Restart & Run All` to test.
+
+- In cell #9 of the `007-Tester_with_gradcam.ipynb` the `case` has values that can be changed to evaluate the various cases in isolation `a` for normal, `b` for ulcer, `c` for poylp, `d` for esophagitis.
 
 **Second (difficult):**
 - Make sure to download the <a href="https://drive.google.com/drive/folders/1WVKRTS5Wg8FdL7GCKwebIUz9jXnKx9nH?usp=sharing">PREPARED dataset</a> and extract it to a folder within the `mfure_cnn/` like `mfure_cnn/data/`
+
 - Clone this repository or download as zip.
+
 - Install the requirements on a newly created environment to prevent issues with other existing ones.
-- Open one of the trainers like `000-MFuReCNN_alpha_do.ipynb` and train. You may train the other models if needed.
-- Once trained, you may now use the `006-Evaluator.ipynb` and `007-Tester_with_gradcam.ipynb` and you are done.
+
+- Open one of the trainers like `000-MFuReCNN_alpha_do.ipynb` then go to the `Kernel` tab above then proceed with `Restart & Run All` to train. You may train the other models if needed that has notebook numbers from `000` to `005`. If there are trained models that exist in the `mfurecnn/models/` they will be overwritten depending on the model re-trained. BE CAREFUL. 
+
+- Once trained, you may now again use the `006-Evaluator.ipynb` and `007-Tester_with_gradcam.ipynb` and you are done. Make sure that the respective weights are present.
 
 **REMEMBER THIS IS A LONGER PROCESS (Second process) WHEN TESTING AND SIMULATING THE MODEL.**
