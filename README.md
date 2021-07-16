@@ -47,7 +47,7 @@ You may clone using git or download the repository and extract the files manuall
 - Clone this repository or download as zip.
 - Install the requirements on a newly created environment to prevent issues with other existing ones.
 - Directly open the `006-Evaluator.ipynb` restart and run all the kernel to proceed with the evaluation. 
-- Open the `007-Tester_with_gradcam.ipynb` restart and run all the kernel to test it and you are done.
+- Open the `007-Tester_with_gradcam.ipynb` restart and run all the kernel to test it.
 
 **Second (difficult):**
 - Make sure to download the <a href="https://drive.google.com/drive/folders/1WVKRTS5Wg8FdL7GCKwebIUz9jXnKx9nH?usp=sharing">PREPARED dataset</a> and extract it to a folder within the `mfure_cnn/` like `mfure_cnn/data/`
