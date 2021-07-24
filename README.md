@@ -37,7 +37,7 @@ Dependencies included in the `requirements.txt`:
 You may clone using git or download the repository and extract the files manually:
 - Once cloned, CD into the folder and enter `pip install -r requirements.txt`. 
 - After installation of the dependecies, there are two options, either evaluate from the given weights (EASY and FAST) or train the model again (DIFFICULT and LENGTHY).
-
+- Download the readily trained weights and dataset here https://drive.google.com/drive/u/2/folders/1ke0kWhgzjlBQkle4Z0Fh31dnl5ny_HLf
 ============================================================================
 
 
@@ -54,7 +54,7 @@ You may clone using git or download the repository and extract the files manuall
 
 - For testing, open the `007-Tester_with_gradcam.ipynb` go to the `Kernel` tab above then proceed with `Restart & Run All` to test.
 
-- In cell #9 of the `007-Tester_with_gradcam.ipynb` the `case` has values that can be changed to evaluate the various cases in isolation `a` for normal, `b` for ulcer, `c` for poylp, `d` for esophagitis.
+- In cell #9 of the `007-Tester_with_gradcam.ipynb` the `case` has values that can be changed to evaluate the various cases in isolation `0` for normal, `1` for ulcer, `2` for poylp, `3` for esophagitis.
 
 **Second (difficult):**
 - Make sure to download the <a href="https://drive.google.com/drive/folders/1WVKRTS5Wg8FdL7GCKwebIUz9jXnKx9nH?usp=sharing">PREPARED dataset</a> and extract it to a folder within the `mfure_cnn/` like `mfure_cnn/data/`
