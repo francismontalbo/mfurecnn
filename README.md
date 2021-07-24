@@ -13,7 +13,11 @@
 # Dataset: 
 <p><a href="https://datasets.simula.no/kvasir/"></a>KVASIR Dataset</p>
 <h3>Paper to cite:</h3>
-<p>KVASIR: A Multi-Class Image Dataset for Computer Aided Gastrointestinal Disease Detection</p>
+<p><a href="https://dl.acm.org/doi/abs/10.1145/3083187.3083212">KVASIR: A Multi-Class Image Dataset for Computer Aided Gastrointestinal Disease Detection</a></p>
+
+<p><a href="https://polyp.grand-challenge.org/EtisLarib/"></a>ETIS-Larib-Polyp DB Dataset</p>
+<h3>Paper to cite:</h3>
+<p><a href="https://link.springer.com/article/10.1007/s11548-013-0926-3/">Towards embedded detection of polyps in WCE images for early diagnosis of colorectal cancer</a></p>
 
 ***:heavy_exclamation_mark:For a faster method, you may download the already prepared dataset used in the given link below.*** 
 
