@@ -1,6 +1,6 @@
 # REPOSITORY MADE FOR A RESEARCH PUBLICATION
 
-- ### Author: Francis Jesmar P. Montalbo
+- ### Author: Dr. Francis Jesmar P. Montalbo
 - ### Affiliation: Batangas State University
 - ### Email: francismontalbo@ieee.org
 ### <p><a href="https://francismontalbo.github.io">Personal Webpage</a></p>
