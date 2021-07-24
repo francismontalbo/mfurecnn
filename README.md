@@ -76,4 +76,4 @@ You may clone using git or download the repository and extract the files manuall
 
 **REMEMBER THIS IS A LONGER PROCESS (Second process) WHEN TESTING AND SIMULATING THE MODEL.**
 
-
+<h6>Score-CAM is credited to https://github.com/tabayashi0117/Score-CAM </h6>
