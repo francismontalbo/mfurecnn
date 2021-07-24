@@ -1,4 +1,5 @@
-# mfurecnn
+# REPOSITORY MADE FOR A RESEARCH PUBLICATION
+
 - ### Author: Francis Jesmar P. Montalbo
 - ### Affiliation: Batangas State University
 - ### Email: francismontalbo@ieee.org
