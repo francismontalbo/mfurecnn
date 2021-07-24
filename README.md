@@ -1,8 +1,8 @@
 # mfurecnn
-<p> Author: Francis Jesmar P. Montalbo </p>
-<p> Affiliation: Batangas State University </p>
-<p> Email: francismontalbo@ieee.org </p>
-<p><a href="https://francismontalbo.github.io">Personal Webpage</a></p>
+- ### Author: Francis Jesmar P. Montalbo
+- ### Affiliation: Batangas State University
+- ### Email: francismontalbo@ieee.org
+### <p><a href="https://francismontalbo.github.io">Personal Webpage</a></p>
 ***PLEASE CONTANCT ME IF YOU ARE HAVING TROUBLE. I CAN OFFER ASSITANCE***
 
 # Dataset: 
@@ -12,7 +12,7 @@
 
 ***:heavy_exclamation_mark:For a faster method, you may download the already prepared dataset used in the given link below.*** 
 
-<a href="">CLICK ME FOR THE PREPARED DATASET USED IN THIS STUDY</a>
+<a href="https://drive.google.com/drive/u/2/folders/1ke0kWhgzjlBQkle4Z0Fh31dnl5ny_HLf">CLICK ME FOR THE PREPARED DATASET USED IN THIS STUDY. Download the `data.rar` and extract it to the `mfurecnn/data`</a>
 
 # How to use:
 # Disclaimer
@@ -38,8 +38,8 @@ You may clone using git or download the repository and extract the files manuall
 - Once cloned, CD into the folder and enter `pip install -r requirements.txt`. 
 - After installation of the dependecies, there are two options, either evaluate from the given weights (EASY and FAST) or train the model again (DIFFICULT and LENGTHY).
 - Download the readily trained weights and dataset here https://drive.google.com/drive/u/2/folders/1ke0kWhgzjlBQkle4Z0Fh31dnl5ny_HLf
+- Extract the `data.rar` in `mfurecnn/data` and the `models.rar` in `mfurecnn/models`
 ============================================================================
-
 
 ***:heavy_exclamation_mark: HOW TO USE:*** 
 ================================================================================================
@@ -56,6 +56,8 @@ You may clone using git or download the repository and extract the files manuall
 
 - In cell #9 of the `007-Tester_with_gradcam.ipynb` the `case` has values that can be changed to evaluate the various cases in isolation `0` for normal, `1` for ulcer, `2` for poylp, `3` for esophagitis.
 
+- The saliency analysis can be found in `008-gradcams.ipynb` for further visualization with other CAM algorithms.
+
 **Second (difficult):**
 - Make sure to download the <a href="https://drive.google.com/drive/folders/1WVKRTS5Wg8FdL7GCKwebIUz9jXnKx9nH?usp=sharing">PREPARED dataset</a> and extract it to a folder within the `mfure_cnn/` like `mfure_cnn/data/`
 
@@ -65,6 +67,8 @@ You may clone using git or download the repository and extract the files manuall
 
 - Open one of the trainers like `000-MFuReCNN_alpha_do.ipynb` then go to the `Kernel` tab above then proceed with `Restart & Run All` to train. You may train the other models if needed that has notebook numbers from `000` to `005`. If there are trained models that exist in the `mfurecnn/models/` they will be overwritten depending on the model re-trained. BE CAREFUL. 
 
-- Once trained, you may now again use the `006-Evaluator.ipynb` and `007-Tester_with_gradcam.ipynb` and you are done. Make sure that the respective weights are present.
+- Once trained, you may now again use the `006-Evaluator.ipynb`, `007-Tester_with_gradcam.ipynb`, `008-gradcams.ipynb`, and you are done. Make sure that the respective weights are present.
 
 **REMEMBER THIS IS A LONGER PROCESS (Second process) WHEN TESTING AND SIMULATING THE MODEL.**
+
+
