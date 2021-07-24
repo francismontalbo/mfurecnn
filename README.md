@@ -8,7 +8,7 @@
 
 # Graphical Abstract
 
-<img src="/graphics/graphical_abstract.jpg" alt="montalbo_graphical_abstract_2021" width="1000">
+<img src="/graphics/graphical_abstract.jpg" alt="montalbo_graphical_abstract_2021" width="500">
 
 # Dataset: 
 <p><a href="https://datasets.simula.no/kvasir/"></a>KVASIR Dataset</p>
