@@ -6,6 +6,10 @@
 ### <p><a href="https://francismontalbo.github.io">Personal Webpage</a></p>
 ***PLEASE CONTANCT ME IF YOU ARE HAVING TROUBLE. I CAN OFFER ASSITANCE***
 
+# Graphical Abstract
+
+<img src="/graphics/graphical_abstract.jpg" alt="montalbo_graphical_abstract_2021" width="1000">
+
 # Dataset: 
 <p><a href="https://datasets.simula.no/kvasir/"></a>KVASIR Dataset</p>
 <h3>Paper to cite:</h3>
