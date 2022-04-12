@@ -10,6 +10,10 @@
 
 <img src="/graphics/graphical_abstract.jpg" alt="montalbo_graphical_abstract_2021" width="1000">
 
+# CITATION:
+
+F. J. P. Montalbo, "Diagnosing Gastrointestinal Diseases from Endoscopy Images through a Multi-Fused CNN with Auxiliary Layers, Alpha Dropouts, and a Fusion Residual Block," Biomedical Signal Processing and Control (BSPC), in-press, 2022.
+
 # Datasets used: 
 <h1><a href="https://datasets.simula.no/kvasir/"></a>KVASIR Dataset</h1>
 <h3>Paper to cite:</h3>
