@@ -1,4 +1,6 @@
-# REPOSITORY MADE FOR A RESEARCH PUBLICATION
+# Diagnosing Gastrointestinal Diseases from Endoscopy Images through a Multi-Fused CNN with Auxiliary Layers, Alpha Dropouts, and a Fusion Residual Block
+
+# Multi-Fused Residual Convolutional Neural Network (MFuRe-CNN)
 
 - ### Author: Dr. Francis Jesmar P. Montalbo
 - ### Affiliation: Batangas State University
