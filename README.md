@@ -54,17 +54,17 @@ Dependencies included in the `requirements.txt`:
 - scipy==1.2.0
 - tf-nightly-gpu==2.6.0 (Note: This is optional and can train even with just a CPU or tensorflow non-gpu variant. Nightly is used to compensate the new RTX 3060 card)
 
-============================================================================
+===========================================================================
 ## General Instruction:
 You may clone using git or download the repository and extract the files manually:
 - Once cloned, CD into the folder and enter `pip install -r requirements.txt`. 
 - After installation of the dependecies, there are two options, either evaluate from the given weights (EASY and FAST) or train the model again (DIFFICULT and LENGTHY).
 - Download the readily trained weights and dataset here ---> <a href="https://drive.google.com/drive/u/2/folders/1ke0kWhgzjlBQkle4Z0Fh31dnl5ny_HLf">Dataset and Trained Weights</a>
 - Extract the `data.rar` in `mfurecnn/data` and the `models.rar` in `mfurecnn/models`
-============================================================================
+===========================================================================
 
 ***:heavy_exclamation_mark: HOW TO USE:*** 
-================================================================================================
+============================================================================================
 **First (easier):**
 - Clone this repository or download as zip.
 
