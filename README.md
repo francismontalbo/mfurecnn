@@ -28,13 +28,13 @@ Paper link: <a href="https://www.sciencedirect.com/science/article/pii/S17468094
 <h3>Paper to cite:</h3>
 <p><a href="https://link.springer.com/article/10.1007/s11548-013-0926-3/">Towards embedded detection of polyps in WCE images for early diagnosis of colorectal cancer</a></p>
 
-============================================================================
+===========================================================================
 
 ***:heavy_exclamation_mark:For a faster method, you may download the already prepared dataset used in the given link below.*** 
 
 <a href="https://drive.google.com/drive/u/2/folders/1ke0kWhgzjlBQkle4Z0Fh31dnl5ny_HLf">CLICK ME FOR THE PREPARED DATASET USED IN THIS STUDY. Download the `data.rar` and extract it to the `mfurecnn/data`</a>
 
-============================================================================
+===========================================================================
 
 # How to use:
 # Disclaimer
