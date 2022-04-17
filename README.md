@@ -14,7 +14,9 @@
 
 # CITATION:
 
-F. J. P. Montalbo, "Diagnosing Gastrointestinal Diseases from Endoscopy Images through a Multi-Fused CNN with Auxiliary Layers, Alpha Dropouts, and a Fusion Residual Block," Biomedical Signal Processing and Control (BSPC), in-press, 2022.
+F. J. P. Montalbo, "Diagnosing Gastrointestinal Diseases from Endoscopy Images through a Multi-Fused CNN with Auxiliary Layers, Alpha Dropouts, and a Fusion Residual Block," Biomedical Signal Processing and Control (BSPC), vol. 76, July, 2022, doi: 10.1016/j.bspc.2022.103683
+
+Paper link: <a href="https://www.sciencedirect.com/science/article/pii/S1746809422002051">FULL PAPER LINK (READ FIRST)</a>
 
 # Datasets used: 
 <h1><a href="https://datasets.simula.no/kvasir/"></a>KVASIR Dataset</h1>
