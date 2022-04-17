@@ -64,7 +64,7 @@ You may clone using git or download the repository and extract the files manuall
 ===========================================================================
 
 ***:heavy_exclamation_mark: HOW TO USE:*** 
-============================================================================================
+========================================================================================
 **First (easier):**
 - Clone this repository or download as zip.
 
