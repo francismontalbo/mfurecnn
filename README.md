@@ -10,7 +10,7 @@
 
 # Graphical Abstract
 
-<img src="/graphics/truncation_covid_preview.png" alt="covid_truncation_montalbo_graphical_abstract_2022" width="1000">
+<img src="/image/truncation_covid_preview.png" alt="covid_truncation_montalbo_graphical_abstract_2022" width="1000">
 
 # CITATION:
 
