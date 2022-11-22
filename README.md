@@ -16,7 +16,10 @@
 
 F. J. P. Montalbo, "Diagnosing Gastrointestinal Diseases from Endoscopy Images through a Multi-Fused CNN with Auxiliary Layers, Alpha Dropouts, and a Fusion Residual Block," Biomedical Signal Processing and Control (BSPC), vol. 76, July, 2022, doi: 10.1016/j.bspc.2022.103683
 
+F. J. P. Montalbo, "Fusing Compressed Deep ConvNets with a Self-Normalizing Residual Block and Alpha Dropout for a Cost-Efficient Classification and Diagnosis of Gastrointestinal Tract Diseases," MethodsX, In-Press, November 2022. doi: 10.1016/j.mex.2022.101925.
+
 Paper link: <a href="https://www.sciencedirect.com/science/article/pii/S1746809422002051">FULL PAPER LINK (READ FIRST)</a>
+Methods Paper: <a href="https://doi.org/10.1016/j.mex.2022.101925">FULL PAPER LINK (READ FIRST)</a>
 
 # Datasets used: 
 <h1><a href="https://datasets.simula.no/kvasir/"></a>KVASIR Dataset</h1>
