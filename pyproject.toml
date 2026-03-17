@@ -32,3 +32,9 @@ target-version = "py39"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[project.optional-dependencies]
+pytorch = [
+  "torch>=2.2.0",
+  "torchvision>=0.17.0"
+]

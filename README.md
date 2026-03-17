@@ -72,8 +72,9 @@ mfurecnn/
 ├── 006-Evaluator.ipynb      # Aggregate evaluation notebook
 ├── 007-Tester_with_gradcam.ipynb
 ├── 008-gradcams.ipynb       # Explainability notebook variants
-├── src/mfurecnn/            # Production Python package (layers, model builders, inference)
-├── scripts/predict.py       # CLI for single-image inference
+├── src/mfurecnn/            # Production Python package (TensorFlow + PyTorch modules)
+├── scripts/predict.py       # TensorFlow CLI for single-image inference
+├── scripts/predict_torch.py # PyTorch CLI for single-image inference
 ├── data/                    # Place extracted prepared dataset here
 ├── models/                  # Place extracted pretrained weights here
 ├── test_samples/            # Example inference images
@@ -127,6 +128,16 @@ pip install -e .
 
 > If you do not have a GPU, install CPU TensorFlow by replacing `tensorflow-gpu` with `tensorflow`.
 
+### 1B) Optional PyTorch environment
+
+```bash
+pip install -r requirements-pytorch.txt
+# or: pip install -e .[pytorch]
+```
+
+The PyTorch path is an engineering-grade implementation of the paper-inspired fusion residual logic for cleaner deployment pipelines while preserving notebook-first TensorFlow reproducibility.
+
+
 ### 2) Fast evaluation (no retraining)
 
 1. Download prepared dataset + model weights.
@@ -155,7 +166,15 @@ python scripts/predict.py \
   --image test_samples/normal.jpg
 ```
 
-This returns JSON predictions that can be integrated into APIs, experiment trackers, or batch pipelines.
+For PyTorch checkpoints:
+
+```bash
+python scripts/predict_torch.py \
+  --checkpoint models/<your_model_checkpoint>.pt \
+  --image test_samples/normal.jpg
+```
+
+Both CLIs return JSON predictions that can be integrated into APIs, experiment trackers, or batch pipelines.
 
 ---
 
