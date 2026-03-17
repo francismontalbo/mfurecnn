@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mfurecnn"
+version = "0.1.0"
+description = "Production-grade utilities for MFuRe-CNN research and deployment workflows."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Francis Jesmar P. Montalbo" }
+]
+keywords = [
+  "gastrointestinal disease diagnosis",
+  "endoscopy classification",
+  "mfure-cnn",
+  "medical imaging",
+  "deep learning"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[project.optional-dependencies]
+pytorch = [
+  "torch>=2.2.0",
+  "torchvision>=0.17.0"
+]
