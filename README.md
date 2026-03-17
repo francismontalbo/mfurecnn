@@ -72,13 +72,16 @@ mfurecnn/
 ├── 006-Evaluator.ipynb      # Aggregate evaluation notebook
 ├── 007-Tester_with_gradcam.ipynb
 ├── 008-gradcams.ipynb       # Explainability notebook variants
+├── src/mfurecnn/            # Production Python package (layers, model builders, inference)
+├── scripts/predict.py       # CLI for single-image inference
 ├── data/                    # Place extracted prepared dataset here
 ├── models/                  # Place extracted pretrained weights here
 ├── test_samples/            # Example inference images
 ├── graphics/                # Figures used in paper/docs
 ├── requirements.txt
 ├── REPRODUCIBILITY.md
-└── EXPERIMENTS.md
+├── EXPERIMENTS.md
+└── pyproject.toml
 ```
 
 ---
@@ -119,6 +122,7 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install --upgrade pip
 pip install -r requirements.txt
+pip install -e .
 ```
 
 > If you do not have a GPU, install CPU TensorFlow by replacing `tensorflow-gpu` with `tensorflow`.
@@ -143,6 +147,16 @@ pip install -r requirements.txt
   - `3`: esophagitis
 - Use `008-gradcams.ipynb` for additional CAM visualizations.
 
+### 4) CLI inference for deployment workflows
+
+```bash
+python scripts/predict.py \
+  --model models/<your_model_file> \
+  --image test_samples/normal.jpg
+```
+
+This returns JSON predictions that can be integrated into APIs, experiment trackers, or batch pipelines.
+
 ---
 
 ## Full retraining path (research workflow)
@@ -160,13 +174,14 @@ To regenerate models from scratch:
 3. Generated/updated weights will be saved under `models/`.
 4. Re-run evaluation and tester notebooks.
 
-See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) and [`EXPERIMENTS.md`](EXPERIMENTS.md) for controls and reporting templates.
+See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md), [`EXPERIMENTS.md`](EXPERIMENTS.md), and [`ARCHITECTURE.md`](ARCHITECTURE.md) for controls, run templates, and production module layout.
 
 ---
 
 ## Reproducibility and production-readiness notes
 
 - Pin dependency versions using `requirements.txt`.
+- Use the package in `src/mfurecnn` for reusable layers/utilities instead of copying notebook cells.
 - Lock random seeds and document hardware/software setup for every run.
 - Keep a separate immutable copy of trained checkpoints per experiment.
 - Track metrics and confusion matrix artifacts for each variant.
